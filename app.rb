@@ -3,7 +3,7 @@ require_relative 'models/text_analyzer.rb'
 
 class App < Sinatra::Base
   get '/' do
-    erb :index
+    erb :index 
   end
 
   post '/' do
@@ -11,4 +11,5 @@ class App < Sinatra::Base
 
     erb :results
   end
+
 end
